@@ -65,6 +65,7 @@ exclude:
   - base-image/
   - build.sh
   - serve.sh
+  - install.sh
   - README.md
   - Gemfile
   - Gemfile.lock
