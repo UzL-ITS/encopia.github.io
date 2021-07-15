@@ -1,3 +1,3 @@
 #!/bin/bash
 
-bundle-2.7 install
+JEKYLL_ENV=production bundle-2.7 exec jekyll build
