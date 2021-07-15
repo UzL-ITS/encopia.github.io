@@ -1,0 +1,244 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>ENCOPIA</title>
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="ENCOPIA">
+<meta property="og:title" content="ENCOPIA">
+<meta property="og:url" content="http://localhost:4000/about/">
+
+
+  <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/about/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          ENCOPIA
+          <span class="site-subtitle">ENabling COnnected PrIvacy Assurance</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/publications/">Publications</a>
+            </li><li class="masthead__menu-item">
+              <a href="/partners/">Project Partners</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <hr />
+
+<h1 id="about">About</h1>
+
+<hr />
+
+<h2 id="project-goals">Project Goals</h2>
+
+<p>We propose to use methods of binary analysis to make privacy goals testable in an automated fashion. ENCOPIA focuses on ensuring that sensitive data such as location information, user input, voice information, and other sensor readings can be tracked through programs and services by analyzing the used software and tracking data flows in programs.</p>
+
+<p>To achieve a holistic end-to-end evaluation of privacy critical data flows in IoT systems we strive to analyze the binaries deployed to IoT devices collecting most of the data as well as the byte code running as services in the cloud. Especially, actions will be taken combining the information from all analysis steps enabling the qualified assessment of sensitive information in the system’s sinks.</p>
+
+<p>Using information flow tracking, one can follow data that has been recorded at sources such as sensors to data sinks such as saved files or the network stack. Ideally, it is possible to track the information from an IoT device all the way into cloud databases, where the data is eventually used in further processing.</p>
+
+<h2 id="use-case-iot-for-e-mobility">Use Case IoT for e-Mobility</h2>
+
+<p>The IoT for e-Mobility use case is based on the <a href="http://www.chargeangels.fr/">ChargeAngels</a> application developed by SAP Labs France. ChargeAngels connects electric car charging stations, fleet administrators, cars and their drivers, and energy providers to monitor and analyze the usage of the charging stations and to optimize the balance between charging station workload, user experience, and operating costs. Its features include a monitoring dashboard, a mobile application for users including information about availability of charging stations and progress of charging, advanced analytical capacities, and APIs for external data processors like energy providers.</p>
+
+<p>The data collected and processed by the solution may include personal data like driver and vehicle ID, location information, charging profiles, and more. For example, before charging begins, the employee must present their company badge to the charging column. This contains the employee ID, which is sent to the cloud services and used to track energy usage per person. The technologies of the ENCOPIA project have the potential to improve and automate the compliance of the solution with data protection regulations like GDPR and detect and sanitize relevant data flows directly at the place where they are originating, thus, simplifying compliance. The ability to instrument code on the binary level is critical, since the components are provided by different vendors (e.g., the solution should allow to support charging stations of different vendors and different size) and access to the source code cannot always be assumed. ENCOPIA helps to support ChargeAngels scenarios with different privacy requirements, e.g., its usage for electric corporate fleets with company-owned cars and employees being the drivers, or its usage for public stations with private cars or drivers, by applying different policies to the detected data flows.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/UzL-ITS" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 ENCOPIA. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

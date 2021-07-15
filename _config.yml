@@ -62,7 +62,11 @@ include: ["_pages"]
 exclude:
   - Dockerfile
   - base-image/
-  
+  - build.sh
+  - serve.sh
+  - README.md
+  - Gemfile
+  - Gemfile.lock
   
 defaults:
    # _pages
