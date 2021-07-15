@@ -68,6 +68,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   
+  
 defaults:
    # _pages
    - scope:
