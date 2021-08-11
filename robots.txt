@@ -1,1 +1,1 @@
-Sitemap: uzl-its.github.io/encopia.github.io/sitemap.xml
+Sitemap: encopia.org/sitemap.xml
