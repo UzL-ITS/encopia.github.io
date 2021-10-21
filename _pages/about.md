@@ -1,6 +1,9 @@
 ---
 permalink: /about/
 classes: wide
+sidebar:
+   - title: "ENCOPIA"
+     text: "ENabling COnnected PrIvacy Assurance"
 ---
 
 ---

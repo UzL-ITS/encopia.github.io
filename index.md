@@ -1,6 +1,9 @@
 ---
 layout: single
 classes: wide
+sidebar:
+   - title: "ENCOPIA"
+     text: "ENabling COnnected PrIvacy Assurance"
 ---
 
 ---
