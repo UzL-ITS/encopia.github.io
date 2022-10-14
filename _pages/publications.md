@@ -10,6 +10,9 @@ sidebar:
 
 # Publications
 
+Outcomes of our work in the ENCOPIA project:
+{% bibliography --file bibliography %}
+
 ---
 
 ## Previous Work
