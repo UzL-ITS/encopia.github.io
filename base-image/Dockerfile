@@ -1,6 +1,6 @@
 from archlinux:latest
 
-RUN pacman -Syu --noconfirm git ruby2.7 vim gcc make
+RUN pacman -Syu --noconfirm git ruby vim gcc make
 
 RUN useradd -ms /bin/bash jekyll
 
@@ -12,11 +12,9 @@ WORKDIR /home/jekyll
 RUN mkdir /home/jekyll/page && mkdir /home/jekyll/.ruby
 
 ENV GEM_HOME=/home/jekyll/.ruby
-ENV PATH=${PATH}:/home/jekyll/.ruby/bin
+ENV PATH=${PATH}:/home/jekyll/.ruby/bin:/home/jekyll/.local/share/gem/ruby/3.0.0/bin
 
-RUN echo -e "\nalias bundle='bundle-2.7'\nalias gem='gem-2.7'" >> "/home/jekyll/.bashrc"
+RUN bundle config set path /home/jekyll/.ruby/gems
 
-RUN bundle-2.7 config set path /home/jekyll/.ruby/gems
-
-RUN gem-2.7 install jekyll
+RUN gem install jekyll
 
