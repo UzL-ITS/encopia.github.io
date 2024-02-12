@@ -11,8 +11,12 @@ There are docker images to work with and test the page locally.
 ```
 # First build both docker images:
 
+# Make sure latest is really latest :)
+host~$ docker pull archlinux:latest
+# Build the base image, hopefully this is not necessary every time
 host~$ cd base-image
 host~$ docker build -t github-pages-base .
+# Build the 'end-user' image
 host~$ cd ..
 host~$ docker build -t encopia-page .
 
