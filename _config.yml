@@ -67,6 +67,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - venv
+  - scripts
   
 defaults:
    # _pages
