@@ -32,6 +32,5 @@ gem "wdm", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "minimal-mistakes-jekyll"
 gem "jekyll-include-cache"
 
-# Bibtex
-gem "jekyll-scholar", group: :jekyll_plugins
 gem "json"
+gem "webrick"

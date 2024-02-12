@@ -1,6 +1,6 @@
 from archlinux:latest
 
-RUN pacman -Syu --noconfirm git ruby vim gcc make
+RUN pacman -Syu --noconfirm git ruby vim gcc make python python-virtualenv python-pip
 
 RUN useradd -ms /bin/bash jekyll
 
@@ -18,3 +18,5 @@ RUN bundle config set path /home/jekyll/.ruby/gems
 
 RUN gem install jekyll
 
+RUN python3 -m venv venv && source venv/bin/activate && pip install requests bibtexparser PyYAML
+ENV PATH="/home/jekyll/venv/bin:$PATH"

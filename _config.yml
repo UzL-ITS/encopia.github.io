@@ -35,7 +35,6 @@ repository: "UzL-ITS/encopia.github.io"
 theme: minimal-mistakes-jekyll
 plugins:
    - jekyll-include-cache
-   - jekyll-scholar
 include: ["_pages"]
 
 # Exclude from processing.
@@ -67,7 +66,7 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
-  
+  - venv
   
 defaults:
    # _pages
@@ -76,17 +75,6 @@ defaults:
        type: pages
      values:
        layout: single
-       
-scholar:
-   style: apa
-   locale: en
-   
-   sort_by: year
-   order: descending
-   
-   source: _bibliography
-   bibliography: references
-       
        
 # disable feed icons:
 atom_feed:
