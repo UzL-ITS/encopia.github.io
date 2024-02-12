@@ -1,3 +1,4 @@
 #!/bin/bash
 
-bundle-2.7 exec jekyll serve
+python3 scripts/conv_bibtex_to_yaml.py
+bundle exec jekyll serve

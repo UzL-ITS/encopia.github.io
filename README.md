@@ -11,8 +11,12 @@ There are docker images to work with and test the page locally.
 ```
 # First build both docker images:
 
+# Make sure latest is really latest :)
+host~$ docker pull archlinux:latest
+# Build the base image, hopefully this is not necessary every time
 host~$ cd base-image
 host~$ docker build -t github-pages-base .
+# Build the 'end-user' image
 host~$ cd ..
 host~$ docker build -t encopia-page .
 
@@ -20,8 +24,8 @@ host~$ docker build -t encopia-page .
 
 host~$ docker run --net=host -it -v ~/path/to/encopia.github.io:/home/jekyll/page encopia-page
 
-docker~$ ./install
-docker~$ ./serve 
+docker~$ ./install.sh
+docker~$ ./serve.sh 
 
 # Connect to the webserver on http://127.0.0.1:4000
 ```
@@ -34,8 +38,8 @@ host~$ git merge -X theirs master
 
 # Then, start the docker again and do
 
-docker~$ ./install
-docker~$ ./build
+docker~$ ./install.sh
+docker~$ ./build.sh
 
 # After successful build, push the changes to gh-pages-local and then do
 

@@ -1,4 +1,5 @@
 #!/bin/bash
 
 rm -r _site
-JEKYLL_ENV=production bundle-2.7 exec jekyll build
+  python3 scripts/conv_bibtex_to_yaml.py
+JEKYLL_ENV=production bundle exec jekyll build
