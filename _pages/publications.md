@@ -60,7 +60,7 @@ sidebar:
   <h2>Talks</h2>
   <ol>
     <li>
-      <p>Marco Casagrande & Daniele Antonioli*: BreakMi: Reversing, Exploiting and Fixing Xiaomi (and Fitbit) Fitness Tracking Ecosystems, [hardwear.io USA](https://hardwear.io/usa-2023/speakers/marco-and-daniele.php), 2023.</p>
+      <p>Marco Casagrande & Daniele Antonioli: <b>BreakMi: Reversing, Exploiting and Fixing Xiaomi (and Fitbit) Fitness Tracking Ecosystems</b>, <a href="https://hardwear.io/usa-2023/speakers/marco-and-daniele.php">hardwear.io USA</a>, 2023.</p>
     </li>
   </ol>
   
