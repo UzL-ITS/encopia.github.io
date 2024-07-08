@@ -1,10 +1,11 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
-  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
+
 <html lang="en" class="no-js">
   <head>
     <meta charset="utf-8">
@@ -39,16 +40,7 @@
 
 
 
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    
-      "@type": "Person",
-      "name": null,
-      "url": "encopia.org/"
-    
-  }
-</script>
+
 
 
 
@@ -59,19 +51,17 @@
 <!-- end _includes/seo.html -->
 
 
-
-
-<!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<script>
+<script type="text/javascript">
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
 </script>
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
 
 
 
@@ -103,10 +93,6 @@
   </ul>
 </nav>
 
-    <!--[if lt IE 9]>
-<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
-<![endif]-->
-
     
 
 <div class="masthead">
@@ -119,11 +105,23 @@
           <span class="site-subtitle">ENabling COnnected PrIvacy Assurance</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/about/">About</a>
+              <a
+                href="/about/"
+                
+                
+              >About</a>
             </li><li class="masthead__menu-item">
-              <a href="/publications/">Publications</a>
+              <a
+                href="/publications/"
+                
+                
+              >Publications</a>
             </li><li class="masthead__menu-item">
-              <a href="/partners/">Project Partners</a>
+              <a
+                href="/partners/"
+                
+                
+              >Project Partners</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -148,14 +146,14 @@
   
 
 
-<div itemscope itemtype="https://schema.org/Person">
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
 
   
 
   <div class="author__content">
-    
-      <h3 class="author__name" itemprop="name"></h3>
-    
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="encopia.org/" itemprop="url"></a>
+    </h3>
     
   </div>
 
@@ -216,7 +214,7 @@
 
       <!--
   <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
       <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
     </a>
   </li>
@@ -388,12 +386,124 @@ Yuval Yarom,
         </p>
       </li>
     
+      <li>
+        <p>
+          
+          
+            
+            
+              Jan Wichelmann,
+            
+          
+            
+            
+              Anja Rabich,
+            
+          
+            
+            
+              Anna Pätschke,
+            
+          
+            
+            
+              Thomas Eisenbarth,
+            
+          
+          (2024)
+          
+            . 
+            <strong>Obelix: Mitigating Side-Channels through Dynamic Obfuscation</strong>.
+          
+          
+          
+          
+          
+          
+        </p>
+      </li>
+    
+      <li>
+        <p>
+          
+          
+            
+            
+              Soumaya Boussaha,
+            
+          
+            
+            
+              Lukas Hock,
+            
+          
+            
+            
+              Miguel Bermejo,
+            
+          
+            
+            
+              Ruben Cuevas Rumin,
+            
+          
+            
+            
+              Angel Cuevas Rumin,
+            
+          
+            
+            
+              David Klein,
+            
+          
+            
+            
+              Martin Johns,
+            
+          
+            
+            
+              Luca Compagna,
+            
+          
+            
+            
+              Daniele Antonioli,
+            
+          
+            
+            
+              Thomas Barber,
+            
+          
+          (2024)
+          
+            . 
+            <strong>FP-tracer: Fine-grained Browser Fingerprinting Detection via Taint-tracking and Entropy-based Thresholds</strong>.
+          
+          
+            Proceedings on Privacy Enhancing Technologies (PETS),
+          
+          
+          
+          
+          
+        </p>
+      </li>
+    
   </ol>
   
   <h2>Talks</h2>
   <ol>
     <li>
       <p>Marco Casagrande &amp; Daniele Antonioli: <b>BreakMi: Reversing, Exploiting and Fixing Xiaomi (and Fitbit) Fitness Tracking Ecosystems</b>, <a href="https://hardwear.io/usa-2023/speakers/marco-and-daniele.php">hardwear.io USA</a>, 2023.</p>
+    </li>
+    <li>
+      <p>Anna Pätschke: <b>Cipherfix: Mitigating Ciphertext Side-Channel Attacks in Software</b>, <a href="https://www.youtube.com/watch?v=jVCdpHw4OIA">Usenix Security (YouTube)</a>, 2023.</p>
+    </li>
+    <li>
+      <p>Jan Wichelmann: <b>Obelix: Mitigating Side-Channels through Dynamic Obfuscation</b>, <a href="https://www.youtube.com/watch?v=4PhNFozCuNM">IEEE Symposium on Security and Privacy (YouTube)</a>, 2024.</p>
     </li>
   </ol>
   
@@ -591,6 +701,8 @@ Yuval Yarom,
 
   </div>
 </div>
+
+      
     </div>
 
     
@@ -610,14 +722,13 @@ Yuval Yarom,
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2024 ENCOPIA. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2024 <a href="encopia.org">ENCOPIA</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
 
     
   <script src="/assets/js/main.min.js"></script>
-
 
 
 
