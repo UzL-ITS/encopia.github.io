@@ -62,6 +62,12 @@ sidebar:
     <li>
       <p>Marco Casagrande & Daniele Antonioli: <b>BreakMi: Reversing, Exploiting and Fixing Xiaomi (and Fitbit) Fitness Tracking Ecosystems</b>, <a href="https://hardwear.io/usa-2023/speakers/marco-and-daniele.php">hardwear.io USA</a>, 2023.</p>
     </li>
+    <li>
+      <p>Anna Pätschke: <b>Cipherfix: Mitigating Ciphertext Side-Channel Attacks in Software</b>, <a href="https://www.youtube.com/watch?v=jVCdpHw4OIA">Usenix Security (YouTube)</a>, 2023.</p>
+    </li>
+    <li>
+      <p>Jan Wichelmann: <b>Obelix: Mitigating Side-Channels through Dynamic Obfuscation</b>, <a href="https://www.youtube.com/watch?v=4PhNFozCuNM">IEEE Symposium on Security and Privacy (YouTube)</a>, 2024.</p>
+    </li>
   </ol>
   
   <h2>Previous Work</h2>
